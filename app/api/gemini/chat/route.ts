@@ -49,7 +49,7 @@ export async function POST(req: NextRequest) {
   try {
     const { messages, prompt } = await req.json();
 
-    const apiKey = process.env.GEMINI_API_KEY;
+    const apiKey = process.env.GEMINI_API_KEY || 'AQ.Ab8RN6IUddAfkNU22fS2QC5lF-k1fBAAVCRT0EnBCAQcvc9PhA';
     if (!apiKey) {
       return NextResponse.json(
         { error: 'Kunci API Gemini (GEMINI_API_KEY) belum terkonfigurasi pada server.' },
