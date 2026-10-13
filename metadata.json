@@ -1,0 +1,6 @@
+{
+  "name": "PanduWI - Panduan Widyaiswara Informasi",
+  "description": "Asisten AI Cerdas & Web Dashboard Dr. Eko Subiyantoro, S.Pd., S.ST., MT. untuk Pembelajaran AIoT, IoT, Cyber-Physical Systems, dan Kurikulum PBL/MBL.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
